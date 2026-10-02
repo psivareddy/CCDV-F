@@ -8,7 +8,7 @@ if __package__ in (None, ""):
     if str(project_root) not in sys.path:
         sys.path.insert(0, str(project_root))
 
-from utils.claude_config import require_claude_settings, 
+from utils.claude_config import require_claude_settings
 
 settings = require_claude_settings()
 
