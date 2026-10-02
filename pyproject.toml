@@ -6,5 +6,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=1.8.0",
+    "comm>=0.2.3",
+    "ipykernel>=7.3.0",
+    "openai==2.38.0",
+    "pypdf==6.15.0",
     "python-dotenv>=1.2.3",
+    "qdrant-client==1.14.3",
 ]
